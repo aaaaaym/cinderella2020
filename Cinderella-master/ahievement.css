@@ -1,0 +1,98 @@
+header{
+    height: 90px;
+    width: 100%;
+    background-color: #bbded6;
+    color:#fff;
+    position: fixed;
+    top: 0;
+    z-index: 10px;
+}
+
+.header-left{
+    float: left;
+    width: 400px; 
+    margin: 0 20px;
+}
+
+.header-logo{
+    font-size: 36px;
+    padding: 20px 40px;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+    font-size: 20px;
+    line-height: 90px;
+    padding: 0 30px;
+    color: white;
+    display: block;
+}
+
+body{
+    font-family: "Hiragino Kaku Gothic Pro";
+}
+
+li{
+    list-style: none;
+}
+
+.form-wrapper{
+    padding: 150px 0 50px 0;
+    text-align: center;
+    color: #cccccc;
+}
+
+.copy-container h1{
+    font-size: 60px;
+    color: #8ac6d1;
+    text-align: center;
+}
+
+.copy-container h2{
+    font-size: 40px;
+    color: darkgray;
+    text-align: center;
+}
+
+.contact-form{
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-submit{
+    font-size: 1.4em;
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #dee7ec;
+    color: #889eab;
+    border-style: none;
+}
+
+.footer{
+    background-color: #8ac6d1;
+    color: white;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo{
+    float: left;
+    font-size: 32px;
+}
+
+.footer-list{
+    float: right;
+}
+
+.footer-list li{
+    padding-bottom: 20px;
+}

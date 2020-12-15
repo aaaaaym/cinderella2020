@@ -1,0 +1,278 @@
+header{
+    height: 90px;
+    width: 100%;
+    background-color: #bbded6;
+    color:#fff;
+    position: fixed;
+    top: 0;
+    z-index: 10px;
+}
+
+.header-left{
+    float: left;
+    width: 400px; 
+    margin: 0 20px;
+}
+
+.header-logo{
+    font-size: 36px;
+    padding: 20px 40px;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+    font-size: 20px;
+    line-height: 90px;
+    padding: 0 30px;
+    color: white;
+    display: block;
+}
+
+body{
+    font-family: "Hiragino Kaku Gothic Pro";
+}
+
+li{
+    list-style: none;
+}
+
+.form-wrapper{
+    padding: 150px 0 50px 0;
+    width: 100%;
+    height: auto;
+}
+
+.menu-wrapper{
+    height: 900px;
+    text-align: center;
+    color: #cccccc;
+    border: 3px solid #bbded6;
+    border-radius: 0 3px 3px 3px;
+}
+
+.topnav {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+    background-color: white;
+    border-radius: 3px;
+}
+.topnav li {
+	float: left;
+}
+
+
+.topnav li a {
+	display: inline-block;
+	padding: 0 9px;
+	text-align: center;
+	text-decoration: none;
+    color: #bbded6;
+    border-top: 3px solid #bbded6;
+    border-left: 3px solid #bbded6;
+    border-right: 3px solid #bbded6;
+    border-radius: 5px 5px 0 0;
+}
+
+.topnav li a:hover:not(.active) {
+    background-color: #bbded6;
+    color: white;
+}
+
+li a.active{
+    background-color: #bbded6;
+    color: white;
+}
+
+.menu-left{
+    width: 50%;
+    float: left;
+}
+
+.profile.icon{
+    color: #cccccc;
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 11px;
+    width: 14px;
+    height: 6px;
+    border-left: 1px solid currentColor;
+    border-right: 1px solid currentColor;
+    border-top: 1px solid currentColor;
+    border-bottom: 1px solid currentColor;
+    border-radius: 6px 6px 0 0;
+}
+
+.profile.icon:before{
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: -10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid currentColor;
+}
+
+.uname{
+    float: left;
+    margin: 0 30px;
+    font-size: 17px;
+    color: #cccccc;
+}
+
+.menu-right{
+    width: 50%;
+    float: right;
+}
+
+.box2{
+    position: relative;
+    margin: 50px 20px;
+    padding: 20px 10px;
+    height: auto;
+    width: 600px;
+    border:2px solid #bbded6;
+    border-radius: 8px;
+    float: right;
+}
+
+.box2 .box-title{
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 20px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 17px;
+    background: #fff;
+    color: #bbded6;
+    font-weight: bold;
+}
+
+.box2 p{
+    margin: 0;
+    padding: 0;
+}
+
+
+.box3{
+    top: 50px;
+    position: relative;
+    margin: 15px 20px;
+    padding: 20px 10px;
+    height: auto;
+    width: 600px;
+    border:2px solid #bbded6;
+    border-radius: 8px;
+    float: right;
+}
+
+.box3 .box-title{
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 20px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 17px;
+    background: #fff;
+    color: #bbded6;
+    font-weight: bold;
+}
+
+.box3 p{
+    margin: 0;
+    padding: 0;
+}
+
+.todolist_unit {
+    margin: 0px 0px 0px 0px;
+}
+
+p {
+    margin: 10px 5px;
+    font-size: 20px;
+}
+
+.custom-control-input {
+    margin: 20px 20px !important;
+    padding: 20px 20px !important;
+    transform: scale(1.7)!important;
+}
+
+hr {
+    margin: 0px 0px 0px 0px;
+}
+
+button {
+    margin: 10px 5px;
+    padding: 10px 10px;
+    background-color: #bbded6;
+    color: #fff;
+    border-color: #8ac6d1;
+    font-size: 18px;
+    padding: 10px 10px;
+}
+
+.form-control {
+    font-size: 18px;
+    margin: 10px 0px 5px 5px;
+    padding: 22px 10px;
+    border-radius: 10px;
+    border-color: #8ac6d1;
+}
+
+.todolist_unit1 {
+    margin: 0px 0px 0px 0px;
+}
+
+.custom-control-input1 {
+    margin: 20px 20px !important;
+    padding: 20px 20px !important;
+    transform: scale(1.7)!important;
+}
+
+.form-control1 {
+    font-size: 18px;
+    margin: 10px 0px 5px 5px;
+    padding: 22px 10px;
+    border-radius: 10px;
+    border-color: #8ac6d1;
+}
+
+@media screen and (max-width: 480px) {
+	ul.topnav li.right, ul.topnav li {
+		float: none;
+	}
+}
+
+.footer{
+    background-color: #8ac6d1;
+    color: white;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo{
+    float: left;
+    font-size: 32px;
+}
+
+.footer-list{
+    float: right;
+}
+
+.footer-list li{
+    padding-bottom: 20px;
+}

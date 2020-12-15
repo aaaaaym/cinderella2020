@@ -1,0 +1,150 @@
+body{
+    width: 100%;
+}
+
+header{
+    height: 90px;
+    width: 100%;
+    background-color: #bbded6;
+    color:#fff;
+    position: fixed;
+    top: 0;
+    z-index: 10px;
+}
+
+.container {
+    height: 100%;
+    width: 600px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-left{
+    float: left;
+    width: 300px; 
+    margin: 0 20px;
+}
+
+.header-logo h1{
+    font-size: 36px;
+    padding: 20px 40px;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a{
+    font-size: 20px;
+    line-height: 90px;
+    padding: 0 30px;
+    color: white;
+    display: block;
+}
+
+.top-wrapper{
+    height: 300px;
+    padding: 200px 0 100px 0;
+    background-color: #dddddd;
+    text-align: center;
+    color: white;
+}
+
+.top-wrapper h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    opacity: 0.8;
+}
+
+.top-wrapper p{
+    opacity: 0.8;
+    font-size: 20px;
+    margin-bottom: 40px;
+    z-index: 5px;
+}
+
+.btn{
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 10px 30px;
+    border: 1px solid #8ac6d1;
+    border-radius: 5px;
+    background-color: #8ac6d1;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.btn:hover{
+    opacity: 1;
+}
+
+.category-wrapper{
+    height: 500px;
+    padding: 60px 0 80px 0;
+    text-align: center;
+}
+
+.heading h2{
+    padding-bottom: 30px;
+    color: #8ac6d1;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.category{
+    float: left;
+    width: 25%;
+}
+
+.category-icon{
+    display: inline-block;
+    height: 90px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.category-icon img{
+    height: 100%;
+    width: 100%;
+}
+
+.category-icon p{
+    margin-top: 5px;
+    color: #8ac6d1;
+}
+
+.text-contents{
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+    color: gray;
+}
+
+
+.footer-logo{
+    float: left;
+    font-size: 32px;
+}
+
+.footer-list{
+    float: right;
+}
+
+.footer-list li{
+    padding-bottom: 20px;
+}
+
+
+footer{
+    background-color: #8ac6d1;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
